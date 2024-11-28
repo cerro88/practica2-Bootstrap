@@ -1,0 +1,22 @@
+/*import font League spartan para el texto RUNO del header*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+
+
+header{
+    max-width: 1440px;
+    height: 80px;
+}
+
+.runo{
+    width: 69px;
+    height: 22px;
+    margin-top: 29px;
+    margin-left: 70px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.4px;
+    /*color: #F8F9FA;*/
+}
