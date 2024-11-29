@@ -39,7 +39,7 @@
 
 .category{
     background-color: rgb(229, 229, 229, 0.20);
-    width: 20vh;
+    width: 30vh;
 }
  .line4{
     height: 1px;
@@ -49,4 +49,9 @@
     font-size: 12px;
  }
 
+
+ .ellipse{
+    width: 2rem;
+    gap: 1rem;
+ }
 
