@@ -1,6 +1,7 @@
 /*import font League spartan para el texto RUNO del header*/
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-
+/*Import font Lora para categoria*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 
 /*Nav*/
@@ -30,6 +31,27 @@
 .blog-slider{
     background-image: url(/img/Image_blog_slider.png);
     background-repeat: no-repeat;
-    height: 300px;
-   
 }
+
+.container2{
+    
+}
+
+.texto{
+    width: 530px;
+    font-family: "League Spartan", serif;
+}
+
+.title{
+    max-width: 530px;
+}
+
+.content{
+    max-width: 530px;
+}
+
+.line4{
+    height: 1px;
+}
+
+
