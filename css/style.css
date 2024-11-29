@@ -7,15 +7,10 @@
 /*Nav*/
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.25); 
-    /* Fondo negro con 25% de opacidad */
-    z-index: 1; 
+    
 }
 
 .nav-link {
-    position: relative; 
-    /*Evita problemas de superposición */
-    z-index: 2; 
-    /*Enlaces sobre el fondo */
     color: #F8F9FA;
 }
 .runo{
@@ -31,10 +26,27 @@
 .blog-slider{
     background-image: url(/img/Image_blog_slider.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.category{
+    background-color: rgb(229, 229, 229, 0.20);
+    width: 150px;
+}
+
+.texto{
+    margin: 10rem 5rem 15rem 5rem;
+    width: 700px;
 }
 
 .line4{
     height: 1px;
+}
+
+.text{
+    font-size: 12px;
+    width: 600px;
 }
 
 
