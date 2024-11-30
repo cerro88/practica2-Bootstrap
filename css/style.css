@@ -4,8 +4,10 @@
 
 .container-fluid{
     padding: 0 !important; 
-    max-width: 100% !important;
+    max-width: 1400px !important;
 }
+
+
 /*Nav*/
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.25); 
@@ -23,6 +25,8 @@
     color: #F8F9FA;
 }
 
+
+
 /*Blog slider*/
 
 .blog-slider{
@@ -39,7 +43,7 @@
 
 .category{
     background-color: rgb(229, 229, 229, 0.20);
-    width: 30vh;
+    width: 15vh;
 }
  .line4{
     height: 1px;
@@ -54,4 +58,11 @@
     width: 2rem;
     gap: 1rem;
  }
+
+ /*Blog regular*/
+
+.all{
+    color: #D4A373;
+
+}
 
