@@ -2,10 +2,25 @@
 /*Import font Lora para categoria*/
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+/*Lora font*/
+.blog-slider, .blog-regular, .big-post{
+    font-family: "Lora" , sans-serif;
+}
+
 .container-fluid{
     padding: 0 !important; 
     max-width: 1400px !important;
 }
+
+/*genericos*/
+
+.text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E5E5E5;
+ }
+
 
 
 /*Nav*/
@@ -17,6 +32,7 @@
 .nav-link {
     color: #F8F9FA;
 }
+
 .runo{
     font-family: "League Spartan", sans-serif;
     font-weight: 700;
@@ -33,12 +49,11 @@
     background-image: url(/img/Image_blog_slider.png);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Lora" , sans-serif;
 }
 
 /*se le ha dado un padding para y así el contenedor padre se ha espandido sin necesidad de darle un height*/
 .blog-text{
-    padding: 200px 0 100px 0;
+    padding: 10rem 0 5rem 0;
 }
 
 .category{
@@ -49,9 +64,6 @@
     height: 1px;
  }
 
- .text{
-    font-size: 12px;
- }
 
 
  .ellipse{
@@ -65,9 +77,7 @@
 
 }
 
-.blog-regular{
-    font-family: "Lora" , sans-serif;
-}
+
 .topics{
     font-weight: 700;
     font-size: 36px;
@@ -96,9 +106,6 @@
 }
 
 .paragraph{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
     color: #6C757D;
 }
 
@@ -109,5 +116,16 @@
     background-image: url(/img/bigpost.png);
     background-repeat: no-repeat;
     background-size: cover;
-   
+    padding: 10rem 0 10rem 0;
 }
+
+.contents{
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.category2{
+    background-color: rgb(229, 229, 229, 0.20);
+    width:10rem;
+}
+
