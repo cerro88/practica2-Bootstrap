@@ -6,13 +6,13 @@
 .blog-slider, .blog-regular, .big-post{
     font-family: "Lora" , sans-serif;
 }
-
+/*buuuuffff si no lo dejo de este tamaño máximo el contenido no queda igual que la plantilla...*/
 .container-fluid{
     padding: 0 !important; 
     max-width: 1400px !important;
 }
 
-/*genericos*/
+/**/
 
 .text{
     font-weight: 400;
@@ -20,7 +20,6 @@
     line-height: 20px;
     color: #E5E5E5;
  }
-
 
 
 /*Nav*/
@@ -108,6 +107,8 @@
 .paragraph{
     color: #6C757D;
 }
+
+
 
 
 /*Big post*/
