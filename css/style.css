@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*Lora font*/
-.blog-slider, .blog-regular, .big-post, .blog-metro, .footer{
+.blog-slider, .blog-regular, .big-post, .blog-metro, .footer, .sub-footer{
     font-family: "Lora" , sans-serif;
 }
 /*buuuuffff si no lo dejo de este tamaño máximo el contenido no queda igual que la plantilla...*/
@@ -157,12 +157,27 @@
 
 
 
-/**/
+/*pie de página*/
 .footer{
     color: #E5E5E5;
 }
 
+
+
+
 .sub-footer{
     background-color: #343A40;
     color: #E5E5E5;
+}
+
+.sub-footer .col-md-6:first-child p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.92px;
+}
+
+.sub-footer .col-md-6:last-child p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.92px;
 }
