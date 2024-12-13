@@ -45,8 +45,14 @@
 
 /*Blog slider*/
 
-.blog-slider{
+.imgblog1{
     background-image: url(/img/Image_blog_slider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgblog2{
+    background-image: url(/img/blog-sider2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -81,6 +87,7 @@ h1{
 }
  .line4{
     height: 1px;
+    width: 3rem;
  }
 
 
