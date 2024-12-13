@@ -51,6 +51,18 @@
     background-size: cover;
 }
 
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.08px;
+}
+
+.blog-slider .row.text p {
+    /* Estilo para ambos párrafos */
+    font-size: 14px;
+    color: #E5E5E5;
+}
+
 /*se le ha dado un padding para y así el contenedor padre se ha espandido sin necesidad de darle un height*/
 .blog-text{
     padding: 10rem 0 5rem 0;
@@ -60,6 +72,13 @@
     background-color: rgb(229, 229, 229, 0.20);
 }
 
+.blog-slider .category p{
+    font-family: "Roboto", serif;
+}
+
+.row.blog-text .col-sm-6 .category{
+    width: 200px;
+}
  .line4{
     height: 1px;
  }
@@ -125,13 +144,37 @@
 }
 
 .contents{
-    width: 30rem;
+    width: 40rem;
     margin: 0 auto;
 }
 
-.category2{
-    background-color: rgb(229, 229, 229, 0.20);
-    width:10rem;
+.fashion{
+    width: 80px;
+    margin: 0 38rem;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.72px;
+
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.08px;
+}
+
+.text p{
+    color: #E5E5E5;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    width: 30rem;
+    margin: 0 0 0 5rem;
+}
+
+.text p:last-of-type{
+    line-height: 15.36px;
 }
 
 
@@ -145,14 +188,10 @@
 }
 
 
-.blog-metro .date{
-    color: #E5E5E5;
+.bolg-metro .row .position-absolute .paragraph,
+.bolg-metro .row .position-absolute .date {
+    color: #e5e5e5; /* Color específico para estos <p> */
 }
-
-.blog-metro .paragraph{
-    color: #E5E5E5;
-}
-
 
 
 
