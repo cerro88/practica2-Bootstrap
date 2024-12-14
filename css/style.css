@@ -82,12 +82,14 @@ h1{
     font-family: "Roboto", serif;
 }
 
+/*Esto hace que la cagory de blog text */
 .row.blog-text .col-sm-6 .category{
     width: 200px;
 }
+
  .line4{
     height: 1px;
-    width: 3rem;
+    width: 1rem;
  }
 
 
@@ -171,7 +173,7 @@ h2{
     line-height: 46.08px;
 }
 
-.text p{
+.big-post .text p{
     color: #E5E5E5;
     font-weight: 400;
     font-size: 12px;
