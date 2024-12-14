@@ -229,3 +229,10 @@ h2{
     font-size: 14px;
     line-height: 17.92px;
 }
+
+
+/*Home 2*/
+
+.blog-cards .row:nth-child(3){
+    background-color: #E5E5E5;
+}
