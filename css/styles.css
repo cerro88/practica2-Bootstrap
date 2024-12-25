@@ -1,0 +1,214 @@
+/*import font League spartan para el texto RUNO del header*/
+/*Import font Lora para categoria*/
+/*import font roboto*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/*Nav*/
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.25); 
+    
+}
+
+/*Color blanco con transparencia para el botón hamburguesa*/
+.navbar-toggler-icon {
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.nav-link {
+    color: #F8F9FA;
+}
+
+.runo{
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.4px;
+    color: #F8F9FA;
+}
+
+
+
+
+
+
+
+
+
+
+
+.imgblog1{
+    background-image: url(/img/Image_blog_slider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.08px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E5E5E5;
+ }
+
+.category{
+    background-color: rgb(229, 229, 229, 0.20);
+}
+
+.line4{
+    height: 1px;
+    width: 1rem;
+ }
+.blog-text{
+    padding: 10rem 0 5rem 0;
+}
+
+
+
+
+
+
+
+
+.all{
+    color: #D4A373;
+
+}
+
+
+.topics{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.08px;
+    color:#6C7575;
+}
+
+.filter{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+
+/*Esto hace que las category de las imagenes de los div row no se floten al ser la pantalla más grande*/
+.img-row {
+    width: 100%; 
+    /* La imagen ocupa el ancho del contenedor */
+    height: auto; 
+    /* Altura automática para mantener la proporción */
+    object-fit: cover; 
+    /* Asegura que la imagen cubra su contenedor */
+}
+
+.date{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.36px;
+    color:#6C7575;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #495057;
+}
+
+.paragraph{
+    color: #6C757D;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/*Big post*/
+
+.big-post{
+    background-image: url(/img/bigpost.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0 10rem 0;
+}
+
+.contents{
+    width: 40rem;
+    margin: 0 auto;
+}
+
+.fashion{
+    width: 80px;
+  
+    
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11.72px;
+
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.08px;
+}
+
+.big-post .text p{
+    color: #E5E5E5;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    width: 30rem;
+    margin: 0 0 0 5rem;
+}
+
+.text p:last-of-type{
+    line-height: 15.36px;
+}
+
+
+/*pie de página*/
+.footer{
+    color: #E5E5E5;
+}
+
+
+
+
+.sub-footer{
+    background-color: #343A40;
+    color: #E5E5E5;
+}
+
+.sub-footer .col-md-6:first-child p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.92px;
+}
+
+.sub-footer .col-md-6:last-child p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.92px;
+}
+
+
+
+
+
+.imgblog2{
+    background-image: url(/img/blog-sider2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
