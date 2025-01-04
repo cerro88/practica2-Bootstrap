@@ -240,3 +240,12 @@ body{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra para destacar */
     border-radius: 0 0 5px; /* Opcional: bordes redondeados */
 }
+
+
+
+.big-post2{
+    background-image: url(/img/home2/bigpost2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0 10rem 0;
+}
