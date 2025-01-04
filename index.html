@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!--contenedor principal(se han reseteado a 0 marging y pading)-->
+    <!-- Contenedor principal (se han reseteado a 0 margin y padding) -->
     <div class="container-fluid">
-        <!--contenedor slider-->
+        <!-- Contenedor slider -->
         <div class="blog-slider imgblog1">
             <!-- Menú de navegación -->
             <nav class="navbar navbar-expand-md text-center navbar-custom">
@@ -21,41 +21,41 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Articles</a>
+                                <a class="nav-link" href="contacte.html">Contacte</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <!--fin del menú de navegación-->
+            <!-- Fin del menú de navegación -->
 
-            <!--Primer bloque 'blog-text'-->
+            <!-- Primer bloque 'blog-text' -->
             <div class="blog-text ms-5 ps-5">
-                <!--Contenedor row que alberga todo el texto-->
-               <div class="row">
-                    <!--Ocupará 4 columnas para que el texto no se expanda-->
+                <!-- Contenedor row que alberga todo el texto -->
+                <div class="row">
+                    <!-- Ocupará 4 columnas para que el texto no se expanda -->
                     <div class="col-4 col-sm-4 col-md-4 position-relative">
-                        <!--Contenedor row que ocupará 3 columnas para albergar la category y que no descentre el contenido-->
+                        <!-- Categoría del blog -->
                         <div class="category text-white text-center p-2 position-absolute">
                             ADVENTURE
                         </div>
-                        <!--Contenedor para el título-->
+                        <!-- Contenedor para el título -->
                         <div>
                             <h1 class="text-white mt-5">Richird Norton photorealistic rendering as real photos</h1>
                         </div>
-                        <!--Contenedor flex para la fecha, imagen y texto, ya que con row de descuadra-->
+                        <!-- Contenedor flex para la fecha, imagen y texto -->
                         <div class="d-flex text">
                             <p class="me-4">08.08.2021</p>
                             <img class="line4 mt-2 me-4" src="img/Line 4.png" alt="line4">
-                            <p class="">Progressively incentivize cooperative systems through technically sound<br> functionalities. The credibly productivate seamless data.</p>
+                            <p>Progressively incentivize cooperative systems through technically sound<br> functionalities. The credibly productivate seamless data.</p>
                         </div>
-                        <!--Contenedor flex para las imagenes de los puntos, con row no es eficiente-->
+                        <!-- Contenedor flex para las imágenes de los puntos -->
                         <div>
                             <div class="d-flex ellipse mt-5">
                                 <img class="" src="img/Ellipse 5.png" alt="">
@@ -63,38 +63,37 @@
                                 <img class="ms-4" src="img/Ellipse 7.png" alt="">
                             </div>
                         </div>
-
                     </div>
-               </div>
-
+                </div>
             </div>
-            <!--Primer bloque 'blog-text'-->
-        
+            <!-- Fin del primer bloque 'blog-text' -->
         </div>
-        <!--fin del contenedor slider-->
-        </div>
-        <!--Contenedor blog regular-->
+        <!-- Fin del contenedor slider -->
+
+        <!-- Contenedor blog regular -->
         <div class="blog-regular mt-5">
             <h2 class="topics mx-5 px-3">Popular topics</h2>
             <div class="row mx-5">
-                <div class="d-flex col-md-6 filter ">
+                <div class="d-flex col-md-6 filter">
                     <p class="me-md-3 all">All</p>
                     <p class="me-md-3">Adventure</p>
                     <p class="me-md-3">Travel</p>
                     <p class="me-md-3">Fashion</p>
-                    <p class="me-md-3">Techology</p>
+                    <p class="me-md-3">Technology</p>
                     <p class="me-md-3">Branding</p>
                 </div>
                 <div class="col-md-6">
                     <p class="text-end filter">View All</p>
                 </div>
             </div>
-        <div class="row mx-5">
+
+            <!-- Fila de tarjetas de blog -->
+            <div class="row mx-5">
                 <div class="col-12 col-sm-6 col-md-3 mb-4">
                     <div class="position-relative">
-                        <img  src="img/BlogImage1.png" class="img-fluid img-row" alt="">
+                        <img src="img/BlogImage1.png" class="img-fluid img-row" alt="">
                         <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
-                          ADVENTURE
+                            ADVENTURE
                         </div>
                     </div>
                     <div>
@@ -104,11 +103,10 @@
                         <p class="title">Dream destinations to visit this year in Paris</p>
                     </div>
                     <div>
-                        <p class="paragraph">Progressively incentivize cooperative systems through
-                            technically sound functionalities. Credibly productivate
-                            seamless data with flexible schemas.</p>
+                        <p class="paragraph">Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.</p>
                     </div>
                 </div>
+                <!-- Más tarjetas -->
                 <div class="col-12 col-sm-6 col-md-3 mb-4">
                     <div class="position-relative">
                         <img src="img/blogimage2.png" class="img-fluid img-row " alt="">
@@ -120,7 +118,7 @@
                         <p class="date my-3">08.08.2021</p>
                     </div>
                     <div>
-                        <Breathtaking class="title">Breathtaking first-person photos
+                        <p class="title">Breathtaking first-person photos
                             around Europe</p>
                     </div>
                     <div>
@@ -129,6 +127,7 @@
                             seamless data with flexible schemas.</p>
                     </div>
                 </div>
+
                 <div class="col-12 col-sm-6 col-md-3 mb-4">
                     <div class="position-relative">
                         <img src="img/BlogImage3.png" class="img-fluid img-row" alt="">
@@ -169,92 +168,97 @@
                             seamless data with flexible schemas.</p>
                     </div>
                 </div>
-                
-        </div>
-        <div class="row mx-5">
-            <div class="col-12 col-sm-6 col-md-3 mb-4">
-                    <div class="position-relative">
-                        <img src="img/BlogImage8.png" class="img-fluid img-row" alt="">
-                        <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
-                          ADVENTURE
-                        </div>
-                    </div>
-                    <div>
-                        <p class="date my-3">08.08.2021</p>
-                    </div>
-                    <div>
-                        <p class="title">Thins to know before visiting
-                            Cave in Germany</p>
-                    </div>
-                    <div>
-                        <p class="paragraph">Progressively incentivize cooperative systems through
-                            technically sound functionalities. Credibly productivate
-                            seamless data with flexible schemas.</p>
-                    </div>
+                <!-- Continúa para cada tarjeta respetando la estructura -->
+            
             </div>
-            <div class="col-12 col-sm-6 col-md-3 mb-4">
-                    <div class="position-relative">
-                        <img src="img/BlogImage6.png" class="img-fluid img-row" alt="">
-                        <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
-                          TRAVEL
-                        </div>
-                    </div>
-                    <div>
-                        <p class="date my-3">08.08.2021</p>
-                    </div>
-                    <div>
-                        <p class="title">Nina Smith vibrant work collab
-                            with Nike Dunk</p>
-                    </div>
-                    <div>
-                        <p class="paragraph">Progressively incentivize cooperative systems through
-                            technically sound functionalities. Credibly productivate
-                            seamless data with flexible schemas.</p>
-                    </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 mb-4">
-                    <div class="position-relative">
-                        <img src="img/BlogImage7.png" class="img-fluid img-row" alt="">
-                        <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
-                          TECHNOLOGY
-                        </div>
-                    </div>
-                    <div>
-                        <p class="date my-3">08.08.2021</p>
-                    </div>
-                    <div>
-                        <p class="title" >Richard Norton photorealistic
-                            rendering as real photos</p>
-                    </div>
-                    <div>
-                        <p class="paragraph" >Progressively incentivize cooperative systems through
-                            technically sound functionalities. Credibly productivate
-                            seamless data with flexible schemas.</p>
-                    </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 mb-4">
-                    <div class="position-relative">
-                        <img src="img/BlogImage5.png" class="img-fluid img-row" alt="">
-                        <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
-                          FASHION
-                        </div>
-                    </div>
-                    <div>
-                        <p class="date my-3">08.08.2021</p>
-                    </div>
-                    <div>
-                        <p class="title">25 quality collectors toys inspired
-                            by famous films</p>
-                    </div>
-                    <div>
-                        <p class="paragraph" >Progressively incentivize cooperative systems through
-                            technically sound functionalities. Credibly productivate
-                            seamless data with flexible schemas.</p>
-                    </div>
-            </div>
-        </div>
 
-        <!--Contenedor Big Post-->
+            <div class="row mx-5">
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="position-relative">
+                            <img src="img/BlogImage8.png" class="img-fluid img-row" alt="">
+                            <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
+                              ADVENTURE
+                            </div>
+                        </div>
+                        <div>
+                            <p class="date my-3">08.08.2021</p>
+                        </div>
+                        <div>
+                            <p class="title">Thins to know before visiting
+                                Cave in Germany</p>
+                        </div>
+                        <div>
+                            <p class="paragraph">Progressively incentivize cooperative systems through
+                                technically sound functionalities. Credibly productivate
+                                seamless data with flexible schemas.</p>
+                        </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="position-relative">
+                            <img src="img/BlogImage6.png" class="img-fluid img-row" alt="">
+                            <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
+                              TRAVEL
+                            </div>
+                        </div>
+                        <div>
+                            <p class="date my-3">08.08.2021</p>
+                        </div>
+                        <div>
+                            <p class="title">Nina Smith vibrant work collab
+                                with Nike Dunk</p>
+                        </div>
+                        <div>
+                            <p class="paragraph">Progressively incentivize cooperative systems through
+                                technically sound functionalities. Credibly productivate
+                                seamless data with flexible schemas.</p>
+                        </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="position-relative">
+                            <img src="img/BlogImage7.png" class="img-fluid img-row" alt="">
+                            <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
+                              TECHNOLOGY
+                            </div>
+                        </div>
+                        <div>
+                            <p class="date my-3">08.08.2021</p>
+                        </div>
+                        <div>
+                            <p class="title" >Richard Norton photorealistic
+                                rendering as real photos</p>
+                        </div>
+                        <div>
+                            <p class="paragraph" >Progressively incentivize cooperative systems through
+                                technically sound functionalities. Credibly productivate
+                                seamless data with flexible schemas.</p>
+                        </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                        <div class="position-relative">
+                            <img src="img/BlogImage5.png" class="img-fluid img-row" alt="">
+                            <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
+                              FASHION
+                            </div>
+                        </div>
+                        <div>
+                            <p class="date my-3">08.08.2021</p>
+                        </div>
+                        <div>
+                            <p class="title">25 quality collectors toys inspired
+                                by famous films</p>
+                        </div>
+                        <div>
+                            <p class="paragraph" >Progressively incentivize cooperative systems through
+                                technically sound functionalities. Credibly productivate
+                                seamless data with flexible schemas.</p>
+                        </div>
+                </div>
+            </div>
+    
+        </div>
+        <!-- Fin del contenedor blog regular -->
+
+        <!-- Contenedor Big Post -->
         <div class="big-post my-5">
             <div class="row ms-5">
                 <div class="ms-5 col-5"></div>
@@ -272,8 +276,9 @@
                 </div>
             </div>
         </div>
+        <!-- Fin del contenedor Big Post -->
 
-         <!--Contenedor blog metro-->
+        <!-- Contenedor blog metro -->
         <div class="bolg-metro my-5 mx-5">
             <div class="py-5">
                 <p>Editor’s Pick</p>
@@ -283,7 +288,7 @@
                     <div class="position-relative">
                         <img src="/img/metro-BlogImage1.png" class="img-fluid img-row" alt="">
                         <div class="position-absolute top-0 end-0 mt-1 me-2 p-2 text-white category text-center rounded">
-                        FASHION
+                            FASHION
                         </div>
                         <div class="position-absolute top-0 p-5 mt-5">
                             <p class="date mt-5">08.08.2021</p>
@@ -292,6 +297,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Más bloques similares -->
                 <div class="blog2 col-md-4">
                     <div class="position-relative">
                         <img src="img/metro-BlogImage2.png" class="img-fluid img-row" alt="">
@@ -320,30 +326,34 @@
                 </div>
             </div>
         </div>
+        <!-- Fin del contenedor blog metro -->
 
-        <!--Contenedor footer-->
+        <!-- Contenedor footer -->
         <div class="footer bg-dark py-5">
-                <div class="content-footer mx-5">
+            <div class="content-footer mx-5">
                 <div class="row">
+                    <!-- Información de contacto -->
                     <div class="col-3 contact">
-                        <p class="title text-white" >Contact the Publisher</p>
+                        <p class="title text-white">Contact the Publisher</p>
                         <p class="paragraph">mike@runo.com</p>
                         <p class="paragraph">+944 450 904 505</p>
                     </div>
+                    <!-- Explorar -->
                     <div class="col-3 explorate">
                         <p class="title text-white">Explorate</p>
                         <p class="paragraph">Membership</p>
                         <p class="paragraph">Advertise</p>
                         <p class="paragraph">Job Opportunities</p>
                         <p class="paragraph">Partners</p>
-                        <p class="paragraph">Partners</p>
                     </div>
+                    <!-- Sede principal -->
                     <div class="col-3 headquarter">
                         <p class="title text-white">Headquarter</p>
                         <p class="paragraph">191 Middleville Road,<br>
                             NY 1001, Sydney<br>
                             Australia</p>
                     </div>
+                    <!-- Conexiones sociales -->
                     <div class="col-3 connections text-center">
                         <p class="title text-white text-start">Connections</p>
                         <div class="flex text-start">
@@ -355,38 +365,25 @@
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
         </div>
-        
-        <!--contenedor subfooter-->
+        <!-- Fin del contenedor footer -->
+
+        <!-- Contenedor subfooter -->
         <div class="sub-footer">
-                <div class="row px-5 py-3">
-                    <div class="col-md-6">
-                        <p>2021|RUNO Publisher Studio</p>
-                    </div>
-                    <div class="col-md-6 text-end">
-                        <p>Subcribe Now</p>
-                    </div>
+            <div class="row px-5 py-3">
+                <div class="col-md-6">
+                    <p>2021|RUNO Publisher Studio</p>
                 </div>
+                <div class="col-md-6 text-end">
+                    <p>Subscribe Now</p>
+                </div>
+            </div>
         </div>
+        <!-- Fin del contenedor subfooter -->
+
     </div>
-   
-    </div>
-
-   
-      
-
-
-
-
-
-
-
-
-    <!--Fin contenedor principal(se han reseteado a 0 marging y pading)-->
-   
-
-   
+    <!-- Fin del contenedor principal -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
