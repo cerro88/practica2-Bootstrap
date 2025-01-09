@@ -18,11 +18,6 @@
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Color de los enlaces del menú de navegación */
-.nav-link {
-    color: #F8F9FA;
-}
-
 /* Estilo para el texto RUNO */
 .runo {
     font-family: "League Spartan", sans-serif;
@@ -32,6 +27,12 @@
     color: #F8F9FA;
 }
 
+/* Color de los enlaces del menú de navegación */
+.nav-link {
+    color: #F8F9FA;
+}
+
+
 /* ----- SLIDER PRINCIPAL ----- */
 /* Imagen de fondo para el slider del blog */
 .imgblog1 {
@@ -40,7 +41,7 @@
     background-size: cover;
 }
 
-/* Estilo para el título principal (h1) */
+/* Estilo para el título principal (h1) BLOG TEXT*/
 h1 {
     font-weight: 700;
     font-size: 36px;
@@ -126,7 +127,7 @@ h1 {
 
 
 
-/* --- HOME 2 --- */
+
 /* ----- BIG POST ----- */
 /* Imagen de fondo para el big post */
 .big-post {
@@ -199,6 +200,8 @@ h2 {
     line-height: 17.92px;
 }
 
+
+/* --- HOME 2 --- */
 /* ----- SLIDER SECUNDARIO ----- */
 /* Imagen de fondo para el segundo slider */
 .imgblog2 {
