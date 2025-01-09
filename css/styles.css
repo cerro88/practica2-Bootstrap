@@ -125,6 +125,9 @@ h1 {
     line-height: 20px;
 }
 
+.paragraph_picks, .date_picks{
+    color: #E5E5E5;
+}
 
 
 
