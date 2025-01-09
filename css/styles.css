@@ -1,31 +1,30 @@
-/*import font League spartan para el texto RUNO del header*/
-/*Import font Lora para categoria*/
-/*import font roboto*/
+/* Importación de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-.container-fluid{
+/* Estilo general para resetear margenes y paddings del contenedor principal */
+.container-fluid {
     margin: 0 !important;
     padding: 0 !important;
 }
 
-
-/*Nav*/
+/* ----- NAVBAR ----- */
+/* Fondo transparente para el menú de navegación */
 .navbar-custom {
-    background-color: rgba(0, 0, 0, 0.25); 
-    
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
-/*Color blanco con transparencia para el botón hamburguesa*/
+/* Color blanco con transparencia para el ícono del botón hamburguesa */
 .navbar-toggler-icon {
-    background-color: rgba(255, 255, 255, 0.5); 
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
+/* Color de los enlaces del menú de navegación */
 .nav-link {
     color: #F8F9FA;
 }
 
-.runo{
+/* Estilo para el texto RUNO */
+.runo {
     font-family: "League Spartan", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -33,137 +32,134 @@
     color: #F8F9FA;
 }
 
-
-
-
-
-
-
-
-
-
-
-.imgblog1{
+/* ----- SLIDER PRINCIPAL ----- */
+/* Imagen de fondo para el slider del blog */
+.imgblog1 {
     background-image: url(/img/Image_blog_slider.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1{
+/* Estilo para el título principal (h1) */
+h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
 }
 
-.text{
+/* Estilo para textos secundarios */
+.text {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     color: #E5E5E5;
- }
+}
 
-.category{
+/* Fondo semitransparente para la categoría */
+.category {
     background-color: rgb(229, 229, 229, 0.20);
 }
 
-.line4{
+/* Línea decorativa */
+.line4 {
     height: 1px;
     width: 1rem;
- }
-.blog-text{
+}
+
+/* Padding para el bloque de texto del slider */
+.blog-text {
     padding: 10rem 0 5rem 0;
 }
 
-
-
-
-
-
-
-
-.all{
+/* ----- FILTROS DE TEMAS ----- */
+/* Color para el filtro "All" */
+.all {
     color: #D4A373;
-
 }
 
-
-.topics{
+/* Estilo para los títulos de las secciones (h2) */
+.topics {
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
-    color:#6C7575;
+    color: #6C7575;
 }
 
-.filter{
+/* Estilo para los filtros */
+.filter {
     font-weight: 700;
     font-size: 12px;
     line-height: 25px;
 }
 
-
-/*Esto hace que las category de las imagenes de los div row no se floten al ser la pantalla más grande*/
+/* ----- TARJETAS DE BLOG ----- */
+/* Ajustes para las imágenes de las tarjetas */
 .img-row {
-    width: 100%; 
-    /* La imagen ocupa el ancho del contenedor */
-    height: auto; 
-    /* Altura automática para mantener la proporción */
-    object-fit: cover; 
-    /* Asegura que la imagen cubra su contenedor */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
-.date{
+/* Estilo para las fechas de las tarjetas */
+.date {
     font-weight: 400;
     font-size: 12px;
     line-height: 15.36px;
-    color:#6C7575;
+    color: #6C7575;
 }
 
-.title{
+/* Estilo para los títulos de las tarjetas */
+.title {
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     color: #495057;
 }
 
-.paragraph{
+/* Estilo para los párrafos de las tarjetas */
+.paragraph {
     color: #6C757D;
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
 }
 
-/*Big post*/
 
-.big-post{
+
+/* --- HOME 2 --- */
+/* ----- BIG POST ----- */
+/* Imagen de fondo para el big post */
+.big-post {
     background-image: url(/img/bigpost.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10rem 0 10rem 0;
 }
 
-.contents{
+/* Contenedor centralizado */
+.contents {
     width: 40rem;
     margin: 0 auto;
 }
 
-.fashion{
+/* Estilo para la categoría "fashion" */
+.fashion {
     width: 80px;
-  
-    
     font-family: "Roboto", serif;
     font-weight: 700;
     font-size: 10px;
     line-height: 11.72px;
-
 }
 
-h2{
+/* Estilo para subtítulos del big post */
+h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
 }
 
-.big-post .text p{
+/* Estilo para los textos dentro del big post */
+.big-post .text p {
     color: #E5E5E5;
     font-weight: 400;
     font-size: 12px;
@@ -172,53 +168,51 @@ h2{
     margin: 0 0 0 5rem;
 }
 
-.text p:last-of-type{
+/* Ajustes para el último párrafo del texto */
+.text p:last-of-type {
     line-height: 15.36px;
 }
 
-
-/*pie de página*/
-.footer{
+/* ----- PIE DE PÁGINA ----- */
+/* Estilo general para el footer */
+.footer {
     color: #E5E5E5;
 }
 
-
-
-
-.sub-footer{
+/* Subfooter con color de fondo oscuro */
+.sub-footer {
     background-color: #343A40;
     color: #E5E5E5;
 }
 
+/* Estilo para el texto de la primera columna del subfooter */
 .sub-footer .col-md-6:first-child p {
     font-weight: 700;
     font-size: 14px;
     line-height: 17.92px;
 }
 
+/* Estilo para el texto de la segunda columna del subfooter */
 .sub-footer .col-md-6:last-child p {
     font-weight: 400;
     font-size: 14px;
     line-height: 17.92px;
 }
 
-
-
-
-
-.imgblog2{
+/* ----- SLIDER SECUNDARIO ----- */
+/* Imagen de fondo para el segundo slider */
+.imgblog2 {
     background-image: url(/img/home2/blog-sider2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-body{
+/* Fondo de color gris claro para el body */
+body {
     background-color: #F8F9FA;
 }
 
-
-
-
+/* Ajustes para columnas dentro de las filas */
 .row > .col-md-3 {
     display: flex;
     flex-direction: column;
@@ -226,10 +220,12 @@ body{
     height: 100%;
 }
 
+/* Ajustes para contenedores relativos */
 .position-relative {
-    height: 100%; /* Asegura que las imágenes ocupen toda la altura disponible */
+    height: 100%;
 }
 
+/* Estilo para las cajas de texto */
 .box-texto {
     height: 100%;
     display: flex;
@@ -237,13 +233,12 @@ body{
     justify-content: space-between;
     background-color: white;
     padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: sombra para destacar */
-    border-radius: 0 0 5px; /* Opcional: bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5px;
 }
 
-
-
-.big-post2{
+/* Imagen de fondo para el segundo big post */
+.big-post2 {
     background-image: url(/img/home2/bigpost2.png);
     background-repeat: no-repeat;
     background-size: cover;
