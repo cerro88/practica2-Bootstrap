@@ -13,59 +13,55 @@
         
         <div class="blog-slider imgblog2">
 
-            <!--Menú de navegación-->
-            <nav class="navbar navbar-expand-md text-center navbar-custom ">
-                <!-- Marca del sitio "Aquí se podría poner una imagen o logo del sitio" -->
-                <a class="navbar-brand mx-5 runo" href="index.html">RUNO</a>
-                <!-- Botón hamburguesa para dispositivos pequeños -->
-                <button class="navbar-toggler" 
-                        type="button" 
-                        data-toggle="collapse" 
-                        data-target="#navbarContent" 
-                        aria-controls="navbarContent" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Contenedor de enlaces de navegación -->
-                <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
-                    <ul class="navbar-nav mr-auto">
-                        <!-- Enlaces de navegación -->
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2" href="contacte.html">Contacte</a>
-                        </li>
-                    </ul>
+            <!-- Menú de navegación -->
+            <nav class="navbar navbar-expand-md text-center navbar-custom">
+                <div class="container">
+                    <!-- Marca del sitio "Aquí se podría poner una imagen o logo del sitio" -->
+                    <a class="navbar-brand fw-bold runo" href="#">RUNO</a>
+                     <!-- Botón hamburguesa para dispositivos pequeños -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Contenedor de enlaces de navegación -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <!-- Enlaces de navegación -->
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="contacte.html">Contacte</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <!-- Fin del menú de navegación -->
 
-            <!-- Sección principal de texto del blog -->
-            <div class="blog-text px-5 ms-5 ps-5">
+            <!-- Sección principal de texto del blog-text -->
+            <div class="blog-text ms-5 ps-5">
                 <!-- Contenedor principal para la fila del texto -->
                 <div class="row">
-                    <!-- Columna que ocupa 4 columnas en pantallas grandes -->
-                    <div class="col-4 col-sm-4 col-md-4 position-relative">
-                        <!-- Etiqueta que muestra la categoría del blog -->
+                    <!-- Ocupará 4 columnas para que el texto no se expanda -->
+                    <div class="col-md-4 position-relative">
+                        <!-- Categoría del blog -->
                         <div class="category text-white text-center p-2 position-absolute">
                             ADVENTURE
                         </div>
-                        <!-- Contenedor para el título del blog -->
+                        <!-- Contenedor para el título -->
                         <div>
                             <h1 class="text-white mt-5">Richird Norton photorealistic rendering as real photos</h1>
                         </div>
-                        <!-- Contenedor para la fecha, línea y descripción -->
+                        <!-- Contenedor flex para la fecha, imagen y texto -->
                         <div class="d-flex text">
                             <p class="me-4">08.08.2021</p>
                             <img class="line4 mt-2 me-4" src="img/Line 4.png" alt="line4">
                             <p>Progressively incentivize cooperative systems through technically sound<br> functionalities. The credibly productivate seamless data.</p>
                         </div>
-                        <!-- Contenedor para los íconos adicionales -->
+                        <!-- Contenedor flex para las imágenes de los puntos -->
                         <div>
                             <div class="d-flex ellipse mt-5">
                                 <img class="" src="img/Ellipse 5.png" alt="">
@@ -73,15 +69,14 @@
                                 <img class="ms-4" src="img/Ellipse 7.png" alt="">
                             </div>
                         </div>
-
                     </div>
-               </div>
-
+                </div>
             </div>
-            <!-- Fin de la sección principal de texto del blog -->
+            <!-- Fin del primer bloque 'blog-text' -->
         </div>
+        <!-- Fin del contenedor slider -->
 
-        <!-- Sección de temas populares -->
+        <!-- Contenedor blog regular -->
         <div class="blog-cards mx-5 mt-5">
             <h2 class="topics">Popular topics</h2>
             <div class="row">
@@ -99,7 +94,7 @@
                     <p class="text-end filter">View All</p>
                 </div>
             </div>
-            <!-- Contenedor de imágenes y texto para los temas populares -->
+           
 
             <!--inicio bloque imagenes-->
             <div class="row d-flex align-items-stretch pt-3">
