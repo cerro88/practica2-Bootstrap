@@ -278,20 +278,8 @@ body {
 
 /* Estilo para pantallas pequeñas (menores de 576px) */
 @media (max-width: 576px) {
-    h1 {
-        margin: 0 20px 10px 10px;
-         
-    }
 
-    .big-post {
-        background-image: url(/img/bigpost.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 0;
-       
-    }
 }
-
 
 
 
