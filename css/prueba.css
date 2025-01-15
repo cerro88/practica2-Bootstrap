@@ -6,6 +6,7 @@ a{
 }
 
 /* Estilo general para resetear margenes y paddings del contenedor principal */
+/*Sin esto coge margenes por defecto*/
 .container-fluid {
     margin: 0 !important;
     padding: 0 !important;
@@ -17,7 +18,7 @@ body{
 }
 
 /* ----- NAVBAR ----- */
-/* Fondo transparente para el menú de navegación */
+/* Fondo transparente para el nav */
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.25);
 }
@@ -27,7 +28,7 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Estilo para los enlaces del menú de navegación */
+/* Estilo para los enlaces del menú de nav*/
 
 .nav-link{
     font-family: "Roboto", serif;
@@ -51,25 +52,21 @@ body{
 
 /* ----- SLIDER PRINCIPAL ----- */
 /* Imagen de fondo para el slider del blog */
+
 .imgblog1 {
     background-image: url(/img/Image_blog_slider.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Estilo para el título principal (h1) BLOG TEXT*/
+/* Estilo para el título principal H1*/
 h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
 }
 
-/* Estilo para el título (h2) Editor's Pick */
-h2{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 46.08px;
-}
+
 /* Estilo para textos secundarios */
 .text {
     font-weight: 400;
@@ -162,11 +159,13 @@ h2{
     background-image: url(/img/bigpost.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* Centrar la imagen */
-    padding: 15vh 0; /* Ajusta el padding dinámicamente */
+    /* Centrar la imagen */
+    background-position: center; 
+    /* Ajusta el padding dinámicamente */
+    padding: 15vh 0; 
 }
 
-/* Contenedor centralizado */
+/* Contenedor centralizado sin medidas fijas */
 .contents {
     max-width: 100%;
     width: 40%;
@@ -181,18 +180,22 @@ h2{
     line-height: 11.72px;
 }
 
-/* Estilo para subtítulos del big post */
-h2 {
+
+/*Padding para centrar el texto de big-post*/
+.text-big-post{
+    padding: 0 20%;
+}
+
+/* Estilo para el título (h2) Editor's Pick y Big post */
+h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
 }
 
-.text-big-post{
-    padding: 0 20%;
-}
 
-
+/* ---- EDITOR PICK ---- */
+/*Problemas con absolute y relative*/
 
 
 /* ----- PIE DE PÁGINA ----- */
