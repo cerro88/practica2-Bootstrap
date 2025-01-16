@@ -1,12 +1,7 @@
 /* Importación de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-a{
-    text-decoration: none;
-}
-
 /* Estilo general para resetear margenes y paddings del contenedor principal */
-/*Sin esto coge margenes por defecto*/
 .container-fluid {
     margin: 0 !important;
     padding: 0 !important;
@@ -18,7 +13,7 @@ body{
 }
 
 /* ----- NAVBAR ----- */
-/* Fondo transparente para el nav */
+/* Fondo transparente para el menú de navegación */
 .navbar-custom {
     background-color: rgba(0, 0, 0, 0.25);
 }
@@ -28,7 +23,7 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Estilo para los enlaces del menú de nav*/
+/* Estilo para los enlaces del menú de navegación */
 
 .nav-link{
     font-family: "Roboto", serif;
@@ -52,21 +47,25 @@ body{
 
 /* ----- SLIDER PRINCIPAL ----- */
 /* Imagen de fondo para el slider del blog */
-
 .imgblog1 {
     background-image: url(/img/Image_blog_slider.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Estilo para el título principal H1*/
+/* Estilo para el título principal (h1) BLOG TEXT*/
 h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
 }
 
-
+/* Estilo para el título (h2) Editor's Pick */
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.08px;
+}
 /* Estilo para textos secundarios */
 .text {
     font-weight: 400;
@@ -159,18 +158,15 @@ h1 {
     background-image: url(/img/bigpost.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* Centrar la imagen */
-    background-position: center; 
-    /* Ajusta el padding dinámicamente */
-    padding: 15vh 0; 
+    padding: 10rem 0 10rem 0;
 }
 
-/* Contenedor centralizado sin medidas fijas */
+/* Contenedor centralizado */
 .contents {
-    max-width: 100%;
-    width: 40%;
+    width: 40rem;
     margin: 0 auto;
 }
+
 /* Estilo para la categoría "fashion" */
 .fashion {
     width: 80px;
@@ -180,24 +176,27 @@ h1 {
     line-height: 11.72px;
 }
 
-
-/*Padding para centrar el texto de big-post*/
-.text-big-post{
-    padding: 0 20%;
-}
-
-/* Estilo para el título (h2) Editor's Pick y Big post */
-h2{
+/* Estilo para subtítulos del big post */
+h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
 }
 
+/* Estilo para los textos dentro del big post */
+.big-post .text p {
+    color: #E5E5E5;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    width: 30rem;
+    margin: 0 0 0 5rem;
+}
 
-/* ---- EDITOR PICK 'blog metro'---- */
-/*Problemas con absolute y relative*/
-
-
+/* Ajustes para el último párrafo del texto */
+.text p:last-of-type {
+    line-height: 15.36px;
+}
 
 /* ----- PIE DE PÁGINA ----- */
 /* Estilo general para el footer */
@@ -226,95 +225,70 @@ h2{
 }
 
 
+/* --- HOME 2 --- */
+/* ----- SLIDER SECUNDARIO ----- */
+/* Imagen de fondo para el segundo slider */
+.imgblog2 {
+    background-image: url(/img/home2/blog-sider2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-@media screen and (max-width: 480px) {
-    
-    h1{
-        font-size: 18px;
+/* Fondo de color gris claro para el body */
+body {
+    background-color: #F8F9FA;
+}
+
+/* Ajustes para columnas dentro de las filas */
+.row > .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+/* Ajustes para contenedores relativos */
+.position-relative {
+    height: 100%;
+}
+
+/* Estilo para las cajas de texto */
+.box-texto {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5px;
+}
+
+/* Imagen de fondo para el segundo big post */
+.big-post2 {
+    background-image: url(/img/home2/bigpost2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0 10rem 0;
+}
+
+
+/* Estilo para pantallas pequeñas (menores de 576px) */
+@media (max-width: 576px) {
+    h1 {
+        margin: 0 20px 10px 10px;
+         
     }
 
-    .text_slider {
-        display: flex;
-        flex-direction: column;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-        color: #E5E5E5;
-    }
-
-    .blog-text {
-        margin: 0 auto; /* Centra horizontalmente el contenedor principal */
-        padding: 30px; /* Ajusta el padding si es necesario */
-        text-align: center; /* Centra el texto dentro */
-    }
-
-    .line4{
-        margin-bottom: 20px;
-        margin-left: 155px;
-    }
-
-
-    /* ----- BIG POST ----- */
-    /* Imagen de fondo para el big post */
     .big-post {
         background-image: url(/img/bigpost.png);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center; /* Centrar la imagen */
-        padding: 5vh 0; /* Ajusta el padding dinámicamente */
-    }
-
-    /* Contenedor centralizado */
-    .contents {
-        max-width: 100%;
-        width: 50%;
-        margin: 0 auto;
-    }
-
-    .text-big-post{
         padding: 0;
+       
     }
-
-
-    h2{
-        font-size: 30px;
-    }
-
-
-
 }
 
-@media screen and (max-width: 366px){
-    .paragraph_picks, .date_picks{
-        color: #E5E5E5;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 10px;
-    }
-
-    .title-pick {
-        font-size: 14px;
-        line-height: 18px;
-    }
-
-    .filter {
-        font-size: 10px;
-    }
-
-    .topics{
-        font-size: 26px;
-    }
-  
-    .title{
-        font-size: 15px;
-    }
-
-    h2{
-        font-size: 26px;
-    }
-
-
-}
 
 
 
