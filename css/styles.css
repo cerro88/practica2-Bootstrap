@@ -218,7 +218,7 @@ h2{
 }
 
 
-/* MEDIA QUERY PARA HOME 1*/
+/* MEDIA QUERY */
 /*Pantallas con un ancho máximo de 480px */
 @media screen and (max-width: 480px) {
     
@@ -257,6 +257,7 @@ h2{
         padding: 5vh 0;
     }
 
+    /*HOME 2*/
     .big-post2 {
         background-image: url(/img/home2/bigpost2.png);
         background-repeat: no-repeat;
@@ -283,24 +284,29 @@ h2{
         font-size: 30px;
     }
 
+    /*HOME 2*/
     .blog1 .paragraph_picks{
         font-size: 10px;
         line-height: 10px;
     }
 
+    /*HOME 2*/
     .blog2 .paragraph_picks{
         font-size: 10px;
         line-height: 10px;
     }
 
+    /*HOME 2*/
     .blog1 .category{
         font-size: 10px;
     }
 
+    /*HOME 2*/
     .blog2 .category{
         font-size: 10px;
     }
 
+    /*HOME 2*/
     .box-texto{
         margin-bottom: 15px;
     }
@@ -383,7 +389,6 @@ body {
     justify-content: space-between;
     background-color: white;
     padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 5px;
 }
 
