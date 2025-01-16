@@ -284,6 +284,37 @@ h2{
 
 }
 
+@media screen and (max-width: 366px){
+    .paragraph_picks, .date_picks{
+        color: #E5E5E5;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .title-pick {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .filter {
+        font-size: 10px;
+    }
+
+    .topics{
+        font-size: 26px;
+    }
+  
+    .title{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+
+}
 
 
 
