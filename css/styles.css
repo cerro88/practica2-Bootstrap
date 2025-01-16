@@ -360,4 +360,18 @@ body {
     padding: 10rem 0 10rem 0;
 }
 
+/*---- cards blog cars----*/
 
+.name{
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.job{
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
