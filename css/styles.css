@@ -47,9 +47,6 @@ body{
     color: #F8F9FA;
 }
 
-
-
-
 /* ----- SLIDER PRINCIPAL ----- */
 /* Imagen de fondo para el slider del blog */
 
@@ -151,8 +148,6 @@ h1 {
     line-height: 20px;
 }
 
-
-
 /* ----- BIG POST ----- */
 /* Imagen de fondo para el big post */
 .big-post {
@@ -186,18 +181,15 @@ h1 {
     padding: 0 20%;
 }
 
-/* Estilo para el título (h2) Editor's Pick y Big post */
+
 h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
 }
 
-
 /* ---- EDITOR PICK 'blog metro'---- */
-/*Problemas con absolute y relative*/
-
-
+/*Problemas con absolute y relative= Solución diferentes breakpoints teniendo en cuenta que mi pantalla es muy grande*/
 
 /* ----- PIE DE PÁGINA ----- */
 /* Estilo general para el footer */
@@ -226,7 +218,8 @@ h2{
 }
 
 
-
+/* MEDIA QUERY PARA HOME 1*/
+/*Pantallas con un ancho máximo de 480px */
 @media screen and (max-width: 480px) {
     
     h1{
@@ -243,9 +236,10 @@ h2{
     }
 
     .blog-text {
-        margin: 0 auto; /* Centra horizontalmente el contenedor principal */
-        padding: 30px; /* Ajusta el padding si es necesario */
-        text-align: center; /* Centra el texto dentro */
+         /* Centra horizontalmente el contenedor principal */
+        margin: 0 auto; 
+        padding: 30px; 
+        text-align: center;
     }
 
     .line4{
@@ -253,18 +247,17 @@ h2{
         margin-left: 155px;
     }
 
-
-    /* ----- BIG POST ----- */
-    /* Imagen de fondo para el big post */
     .big-post {
         background-image: url(/img/bigpost.png);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center; /* Centrar la imagen */
-        padding: 5vh 0; /* Ajusta el padding dinámicamente */
+        /* Centrar la imagen */
+        background-position: center;
+        /* Ajusta el padding dinámicamente */
+        padding: 5vh 0;
     }
 
-    /* Contenedor centralizado */
+
     .contents {
         max-width: 100%;
         width: 50%;
@@ -284,10 +277,11 @@ h2{
 
 }
 
+/*Pantallas con un ancho máximo de 366px */
 @media screen and (max-width: 366px){
+
+/*Se reducen fuentes para que quepan dentro de las imagenes o bien no sobresalgan ya que los breakpoints no bastan*/
     .paragraph_picks, .date_picks{
-        color: #E5E5E5;
-        font-weight: 400;
         font-size: 10px;
         line-height: 10px;
     }
@@ -316,5 +310,54 @@ h2{
 
 }
 
+
+/*HOME 2*/
+
+/* --- HOME 2 --- */
+/* ----- SLIDER SECUNDARIO ----- */
+/* Imagen de fondo para el segundo slider */
+.imgblog2 {
+    background-image: url(/img/home2/blog-sider2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Fondo de color gris claro para el body */
+body {
+    background-color: #F8F9FA;
+}
+
+/* Ajustes para columnas dentro de las filas */
+.row > .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+/* Ajustes para contenedores relativos */
+.position-relative {
+    height: 100%;
+}
+
+/* Estilo para las cajas de texto */
+.box-texto {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5px;
+}
+
+/* Imagen de fondo para el segundo big post */
+.big-post2 {
+    background-image: url(/img/home2/bigpost2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0 10rem 0;
+}
 
 
