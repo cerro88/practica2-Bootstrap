@@ -352,6 +352,7 @@ h2{
 }
 
 
+
 /*HOME 2*/
 
 /* --- HOME 2 --- */
@@ -412,6 +413,23 @@ body {
 .job{
     font-family: "Lora", serif;
     font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+/*ARTÍCULO*/
+
+.imgarticle {
+    background-image: url(/img/article/Rectangle9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name-slider{
+    color: #FFFF ;
+    font-family: "Lora", serif;
+    font-weight: 700;
     font-size: 12px;
     line-height: 20px;
 }
