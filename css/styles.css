@@ -257,6 +257,16 @@ h2{
         padding: 5vh 0;
     }
 
+    .big-post2 {
+        background-image: url(/img/home2/bigpost2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Centrar la imagen */
+        background-position: center;
+        /* Ajusta el padding dinámicamente */
+        padding: 5vh 0;
+    }
+
 
     .contents {
         max-width: 100%;
@@ -273,7 +283,27 @@ h2{
         font-size: 30px;
     }
 
+    .blog1 .paragraph_picks{
+        font-size: 10px;
+        line-height: 10px;
+    }
 
+    .blog2 .paragraph_picks{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .blog1 .category{
+        font-size: 10px;
+    }
+
+    .blog2 .category{
+        font-size: 10px;
+    }
+
+    .box-texto{
+        margin-bottom: 15px;
+    }
 
 }
 
@@ -288,6 +318,11 @@ h2{
 
     .title-pick {
         font-size: 14px;
+        line-height: 18px;
+    }
+
+    .title-pick2 {
+        font-size: 10px;
         line-height: 18px;
     }
 
