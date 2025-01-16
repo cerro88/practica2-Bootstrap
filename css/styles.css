@@ -433,3 +433,23 @@ body {
     font-size: 12px;
     line-height: 20px;
 }
+
+.line-art{
+    height: 1px;
+}
+
+.text-art{
+    color: #495057 ;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.data-art{
+    color: #495057 ;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+}
