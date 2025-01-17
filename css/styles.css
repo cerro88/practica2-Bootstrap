@@ -311,6 +311,10 @@ h2{
         margin-bottom: 15px;
     }
 
+    /*ARTICLE*/
+
+  
+
 }
 
 /*Pantallas con un ancho máximo de 366px */
@@ -452,4 +456,12 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 25px;
+}
+
+.span{
+    color: #D4A373;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.08px;
 }
