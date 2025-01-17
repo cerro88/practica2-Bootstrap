@@ -488,3 +488,11 @@ h2{
     font-size: 18px;
     line-height: 25px;
 }
+
+
+/*Contacto*/
+.imagen4{
+    background-image: url(/img/contacte/calas-y-playas-de-la-sierra-de-tramuntana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
