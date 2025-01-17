@@ -312,7 +312,16 @@ h2{
     }
 
     /*ARTICLE*/
+    .imagen{
+        margin-top: 5px;
+    }
 
+    .mainline{
+        width: 50%;
+    }
+
+   
+    
   
 
 }
@@ -369,7 +378,7 @@ h2{
 }
 
 /* Fondo de color gris claro para el body */
-body {
+.body2 {
     background-color: #F8F9FA;
 }
 
@@ -464,4 +473,18 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 46.08px;
+}
+
+.related-post{
+    background-color: #F8F9FA;
+}
+
+.related-post > div:first-child > p:first-child,
+.title-related {
+/* Estilo para el <p> dentro del primer div de related-post*/
+    color: #495057;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
 }
