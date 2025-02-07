@@ -51,7 +51,7 @@ body{
 /* Imagen de fondo para el slider del blog */
 
 .imgblog1 {
-    background-image: url(/img/Image_blog_slider.png);
+    background-image: url(../img/Image_blog_slider.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -151,7 +151,7 @@ h1 {
 /* ----- BIG POST ----- */
 /* Imagen de fondo para el big post */
 .big-post {
-    background-image: url(/img/bigpost.png);
+    background-image:url(../img/bigpost.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* Centrar la imagen */
@@ -248,7 +248,7 @@ h2{
     }
 
     .big-post {
-        background-image: url(/img/bigpost.png);
+        background-image:url(../img/bigpost.png);
         background-repeat: no-repeat;
         background-size: cover;
         /* Centrar la imagen */
@@ -259,7 +259,7 @@ h2{
 
     /*HOME 2*/
     .big-post2 {
-        background-image: url(/img/home2/bigpost2.png);
+        background-image:url(../img/home2/bigpost2.png);
         background-repeat: no-repeat;
         background-size: cover;
         /* Centrar la imagen */
@@ -372,7 +372,7 @@ h2{
 /* ----- SLIDER SECUNDARIO ----- */
 /* Imagen de fondo para el segundo slider */
 .imgblog2 {
-    background-image: url(/img/home2/blog-sider2.png);
+    background-image:url(../img/home2/blog-sider2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -408,7 +408,7 @@ h2{
 
 /* Imagen de fondo para el segundo big post */
 .big-post2 {
-    background-image: url(/img/home2/bigpost2.png);
+    background-image:url(../img/home2/bigpost2.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10rem 0 10rem 0;
@@ -434,7 +434,7 @@ h2{
 /*ARTÍCULO*/
 
 .imgarticle {
-    background-image: url(/img/article/Rectangle9.png);
+    background-image:url(../img/article/Rectangle9.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -492,7 +492,7 @@ h2{
 
 /*Contacto*/
 .imagen4{
-    background-image: url(/img/contacte/calas-y-playas-de-la-sierra-de-tramuntana.jpg);
+    background-image:url(../img/contacte/calas-y-playas-de-la-sierra-de-tramuntana.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
